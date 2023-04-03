@@ -24,7 +24,7 @@ jobs:
   npm-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: skonves/npm-version
+      - uses: skonves/npm-version@main
         with:
           newversion: ${{ inputs.newversion }}
           preid: ${{ inputs.preid }}
